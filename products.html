@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرئيسية</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="top-nav" class="d-none d-md-block">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex">
+                        <div class="email">
+                            <img src="img/email.svg" class="ms-1" alt="">
+                            <span>example@gmail.com</span>
+                        </div>
+                        <div class="phone me-4">
+                            <img src="img/mobile.svg" class="ms-1" alt="">
+                            <span>96659721649+</span>
+                        </div>
+                    </div>
+                <div>
+                    <img src="img/img2.jpg" alt="">
+                    <a href="http://">
+                        <img src="img/person.svg" class="ms-1" alt="">
+                        <span>تسجيل الدخول</span>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="search-nav">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <div class="flex-grow-1 px-0 px-md-4 d-none d-md-block search-form">
+                        <form action="">
+                            <div class="search-group">
+                                <input type="text" placeholder="أبحث عن منتجك" class="w-100 input-search">
+                                <img src="img/search.svg" class="search" alt="">
+                                <button type="submit">ابحث</button>
+                            </div>                        
+                        </form>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#"> <img src="img/fav.svg" alt=""></a>
+                        <div class="pe-3">
+                            <img src="img/sal.svg" alt="">
+                            <span class="total-price">25 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container p-0">
+                <ul class="nav-list d-flex p-0"> 
+                    <li class="active nav-item list1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">جميع التصنيفات</a>
+                        <div class="menu d-flex justify-content-between align-items-center">
+                            <ul class="menu_box">
+                                <li><a href="#" class="first">البقالة</a></li>
+                                <li><a href="#">مكسرات</a></li>
+                                <li><a href="#">شيكولاتة</a></li>
+                                <li><a href="#">بسكويت</a></li>
+                            </ul>
+                            <ul class="menu_box">
+                                <li><a href="#" class="first">المجمدات</a></li>
+                                <li><a href="#">لحمة</a></li>
+                                <li><a href="#">دجاج</a></li>
+                                <li><a href="#">خضروات</a></li>
+                            </ul>
+                            <ul class="menu_box">
+                                <li><a href="#" class="first">المشروبات والعصائر</a></li>
+                                <li><a href="#">عصير جوافة</a></li>
+                                <li><a href="#">عصير مانجا</a></li>
+                                <li><a href="#">قهوة</a></li>
+                            </ul>
+                            <ul class="menu_box">
+                                <li><a href="#" class="first">الخضروات والفواكه</a></li>
+                                <li><a href="#">جوافة</a></li>
+                                <li><a href="#">مانجا</a></li>
+                                <li><a href="#">موز</a></li>
+                            </ul>
+                            <ul class="menu_box">
+                                <li><a href="#" class="first">طعام الأطفال</a></li>
+                                <li><a href="#">عصير جوافة</a></li>
+                                <li><a href="#">عصير مانجا</a></li>
+                                <li><a href="#">قهوة</a></li>
+                            </ul>
+                        </div>
+                    </li>                    
+                    <li><a href="#">بقالة</a></li>
+                    <li><a href="#">المجمدات</a></li>
+                    <li><a href="#">المشروبات والعصائر</a></li>
+                    <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
+                    <li><a href="#">الإفطار والسناك والبذور</a></li>
+                    <li><a href="#">الأجبان والحليب والبيض</a></li>
+                    <li><a href="#">المنظفات المنزلية</a></li>
+                    <li><a href="#">طعام الأطفال</a></li>
+                    <li><a href="#">الخضروات والفواكه</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="page-title">
+        <div class="container">
+            <img src="img/title.svg" alt="">
+            <span>/</span>
+            <span>جميع التصنيفات</span>
+        </div>    
+    </div>
+
+    <section id="more-products" class="main-section">
+        <div class="container">
+            <div class="section-title d-flex justify-content-between align-items-center">
+                <p class="more-p">منتجات قد تعجبك</p>
+                <div class="dropdown">
+                <a href="products.html" class="more-btn" data-bs-toggle="dropdown"><img src="img/type.svg" alt=""></a>
+                    <ul class="dropdown-menu dropdown-menu3">
+                      <li><a class="dropdown-item" href="#"><input type="radio" id="html" name="fav_language">مقترحاتنا</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><input type="radio" id="html" name="fav_language">الأكثر مبيعا</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><input type="radio" id="html" name="fav_language">الأعلى تقييماً</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><input type="radio" id="html" name="fav_language">السعر من الأعلى الى الأقل</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><input type="radio" id="html" name="fav_language">السعر من الأقل الى الأعلى</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mb-5 all-cards">
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/pro2.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod3.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                            <span class="old-price">110 ر.س</span>
+                        </div>
+                        <div class="discout">
+                            <p>خصم</p>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod4.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <div class="content product">
+                        <img src="img/prod5.svg" alt="" class="img-fluid">
+                        <div class="product-details">
+                            <p>هنا سيكون أسم المنتج وممكن يكون سطران </p>
+                            <span class="price">100 ر.س</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row gx-0 gx-md-5">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img class="mb-3" src="img/logo.svg" alt="">
+                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد </p>
+                    <ul class="d-flex footer-ul p-0">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="footer-title">بقالة</p>
+                    <ul class="p-0">
+                        <li>بهارات وتوابل</li>
+                        <li>الزيوت</li>
+                        <li>الأرز والمكرونة والدقيق</li>
+                        <li>المعلبات</li>
+                        <li>القهوة والشاي</li>
+                        <li>العسل</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="footer-title">روابط سريعة</p>
+                    <ul class="p-0 footer-ul">
+                        <li> <a href="policies.html">سياسة الإستبدال و الإرجاع</a></li>
+                        <li> <a href="privacy.html">سياسة الخصوصية</a></li>
+                        <li> <a href="terms.html">الشروط والأحكام</a></li>          
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="footer-title">تواصل معنا</p>
+                    <ul class="p-0">
+                        <li>
+                            <div class="email d-flex">
+                                <img src="img/email.svg" class="ps-2" alt="">
+                                <span>example@data.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="phone d-flex">
+                                <img src="img/mobile.svg" class="ps-2" alt="">
+                                <span>96659721649+</span>
+                            </div>
+                        </li>
+                        <li class="d-flex mt-4">
+                            <a href="#"><img src="img/prand1.svg" alt=""></a>
+                            <a href="#" class="me-3"><img src="img/prand2.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Mobile components -->
+    <div id="mobile-nav">
+        <div>
+            <a href="#">Home</a>
+        </div>
+        <div>
+            <a>Home</a>
+        </div>
+        <div>
+            <a href="#">Home</a>
+        </div>
+    </div>
+    <div id="mobile-categories">
+        <ul>
+            <li>
+                <a href="#">Item</a>
+            </li>
+            <li>
+                <a href="#">Item</a>
+            </li>
+            <li>
+                <a href="#">Item</a>
+            </li>
+            <li>
+                <a href="#">Item</a>
+            </li>
+        </ul>
+    </div>
+
+        <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
